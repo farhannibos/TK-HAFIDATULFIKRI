@@ -90,6 +90,23 @@
                         Hubungi Kami
                     </a>
                 </div>
+
+                <button id="mobile-menu-button" class="lg:hidden text-slate-800">
+                    <i class="fas fa-bars-staggered text-2xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden lg:hidden mt-4 pb-4 border-t border-gray-200">
+                <div class="flex flex-col space-y-3 text-sm font-medium text-slate-600">
+                    <a href="index.html" class="hover:text-blue-600 transition py-2">Beranda</a>
+                    <a href="profil.html" class="hover:text-blue-600 transition py-2">Profil</a>
+                    <a href="program.html" class="hover:text-blue-600 transition py-2">Program</a>
+                    <a href="galeri.html" class="text-pink-600 py-2">Galeri</a>
+                </div>
+                <a href="https://wa.me/6281234567890" class="bg-slate-900 text-white mt-4 px-5 py-2.5 rounded-full font-bold block text-center">
+                    Hubungi Kami
+                </a>
             </div>
         </nav>
     </header>
@@ -118,7 +135,7 @@
             <div class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6" id="gallery-container">
 
                 <div class="gallery-item group relative rounded-2xl overflow-hidden break-inside-avoid cursor-pointer shadow-lg" data-category="kegiatan" onclick="openLightbox(this)">
-                    <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1000&auto=format&fit=crop" alt="Belajar Outdoor" class="gallery-img w-full h-auto object-cover">
+                    <img src="../assets/kegiatan-belajar1.jpg" alt="Kegiatan Belajar 1" class="gallery-img w-full h-auto object-cover">
                     <div class="gallery-overlay absolute inset-0 flex flex-col justify-end p-6">
                         <span class="text-blue-300 text-xs font-bold uppercase tracking-wider mb-1">Kegiatan</span>
                         <h3 class="text-white font-bold text-lg">Belajar di Alam Terbuka</h3>
@@ -129,7 +146,7 @@
                 </div>
 
                 <div class="gallery-item group relative rounded-2xl overflow-hidden break-inside-avoid cursor-pointer shadow-lg" data-category="fasilitas" onclick="openLightbox(this)">
-                    <img src="https://images.unsplash.com/photo-1596464716127-f9a0859b4bce?q=80&w=1000&auto=format&fit=crop" alt="Ruang Kelas" class="gallery-img w-full h-auto object-cover">
+                    <img src="../assets/ruangkelas.jpg" alt="Ruang Kelas" class="gallery-img w-full h-auto object-cover">
                     <div class="gallery-overlay absolute inset-0 flex flex-col justify-end p-6">
                         <span class="text-emerald-300 text-xs font-bold uppercase tracking-wider mb-1">Fasilitas</span>
                         <h3 class="text-white font-bold text-lg">Ruang Kelas Nyaman</h3>
@@ -137,7 +154,7 @@
                 </div>
 
                 <div class="gallery-item group relative rounded-2xl overflow-hidden break-inside-avoid cursor-pointer shadow-lg" data-category="acara" onclick="openLightbox(this)">
-                    <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1000&auto=format&fit=crop" alt="Hari Kartini" class="gallery-img w-full h-auto object-cover">
+                    <img src="../assets/harikartini.webp" alt="Hari Kartini" class="gallery-img w-full h-auto object-cover">
                     <div class="gallery-overlay absolute inset-0 flex flex-col justify-end p-6">
                         <span class="text-pink-300 text-xs font-bold uppercase tracking-wider mb-1">Acara</span>
                         <h3 class="text-white font-bold text-lg">Peringatan Hari Kartini</h3>
@@ -145,7 +162,7 @@
                 </div>
 
                 <div class="gallery-item group relative rounded-2xl overflow-hidden break-inside-avoid cursor-pointer shadow-lg" data-category="kegiatan" onclick="openLightbox(this)">
-                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=1000&auto=format&fit=crop" alt="Praktik Sholat" class="gallery-img w-full h-auto object-cover">
+                    <img src="../assets/kegiatan-belajar2.jpg" alt="Kegiatan Belajar 2" class="gallery-img w-full h-auto object-cover">
                     <div class="gallery-overlay absolute inset-0 flex flex-col justify-end p-6">
                         <span class="text-blue-300 text-xs font-bold uppercase tracking-wider mb-1">Kegiatan</span>
                         <h3 class="text-white font-bold text-lg">Praktik Sholat Dhuha</h3>
@@ -153,7 +170,7 @@
                 </div>
 
                 <div class="gallery-item group relative rounded-2xl overflow-hidden break-inside-avoid cursor-pointer shadow-lg" data-category="fasilitas" onclick="openLightbox(this)">
-                    <img src="https://images.unsplash.com/photo-1571210862729-78a52d3779a2?q=80&w=1000&auto=format&fit=crop" alt="Playground" class="gallery-img w-full h-auto object-cover">
+                    <img src="../assets/fasilitas.jpg" alt="Playground" class="gallery-img w-full h-auto object-cover">
                     <div class="gallery-overlay absolute inset-0 flex flex-col justify-end p-6">
                         <span class="text-emerald-300 text-xs font-bold uppercase tracking-wider mb-1">Fasilitas</span>
                         <h3 class="text-white font-bold text-lg">Playground Outdoor</h3>
@@ -161,14 +178,14 @@
                 </div>
 
                 <div class="gallery-item group relative rounded-2xl overflow-hidden break-inside-avoid cursor-pointer shadow-lg" data-category="acara" onclick="openLightbox(this)">
-                    <img src="https://images.unsplash.com/photo-1532328018721-a544435967f9?q=80&w=1000&auto=format&fit=crop" alt="Wisuda" class="gallery-img w-full h-auto object-cover">
+                    <img src="../assets/wisuda.jpg" alt="Wisuda" class="gallery-img w-full h-auto object-cover">
                     <div class="gallery-overlay absolute inset-0 flex flex-col justify-end p-6">
                         <span class="text-pink-300 text-xs font-bold uppercase tracking-wider mb-1">Acara</span>
                         <h3 class="text-white font-bold text-lg">Wisuda Angkatan 10</h3>
                     </div>
                 </div>
                 <div class="gallery-item group relative rounded-2xl overflow-hidden break-inside-avoid cursor-pointer shadow-lg" data-category="kegiatan" onclick="openLightbox(this)">
-                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1000&auto=format&fit=crop" alt="Melukis" class="gallery-img w-full h-auto object-cover">
+                    <img src="../assets/kegiatan-belajar3.jpg" alt="Kegiatan Belajar 3" class="gallery-img w-full h-auto object-cover">
                     <div class="gallery-overlay absolute inset-0 flex flex-col justify-end p-6">
                         <span class="text-blue-300 text-xs font-bold uppercase tracking-wider mb-1">Kegiatan</span>
                         <h3 class="text-white font-bold text-lg">Eksplorasi Seni Lukis</h3>
@@ -323,6 +340,13 @@
             if (e.target === lightbox) {
                 closeLightbox();
             }
+        });
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-button');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', function() {
+            menu.classList.toggle('hidden');
         });
     </script>
 </body>

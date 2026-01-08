@@ -1,0 +1,970 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45252748-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-45252748-1');
+    </script>
+    <meta charset="utf-8">        
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+
+        <meta content="Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD" name="keywords">
+    <meta content="Kegiatan Sabtu Ceria di bantaran kali Tjimanoek kali ini mengundang anak-anak murid dari beberapa sekolah TK di Kabupaten Indramayu pada Sabtu (3/12/2022)." name="description"> 
+    <meta property="og:title" content="InfoPublik - Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD di Taman Tjimanoek"/>
+    <meta property="og:type" content="article"/>   
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="infopublik.id">
+    <meta name="twitter:creator" content="@InfoPublikIP">
+    <meta name="twitter:title" content="InfoPublik - Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD di Taman Tjimanoek">
+    <meta name="twitter:description" content="Kegiatan Sabtu Ceria di bantaran kali Tjimanoek kali ini mengundang anak-anak murid dari beberapa sekolah TK di Kabupaten Indramayu pada Sabtu (3/12/2022)."> 
+
+                    <meta property="og:image" content="https://infopublik.id/assets/upload/headline//IMG-20221203-WA0034_wmcomp.jpg"/>
+            <meta property="og:image:secure_url" content="https://infopublik.id/assets/upload/headline//IMG-20221203-WA0034_wmcomp.jpg"/>
+            <meta property="og:image:type" content="image/jpeg" />
+            <meta property="og:image:width" content="400" />
+            <meta property="og:image:height" content="300" />
+            <meta property="og:image:alt" content="InfoPublik - Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD di Taman Tjimanoek" />
+            <meta property="og:description" content="Kegiatan Sabtu Ceria di bantaran kali Tjimanoek kali ini mengundang anak-anak murid dari beberapa sekolah TK di Kabupaten Indramayu pada Sabtu (3/12/2022)." />
+
+            <meta name="twitter:image" content="https://infopublik.id/assets/upload/headline//IMG-20221203-WA0034_wmcomp.jpg">
+            
+    
+
+    
+    <meta content="infopublik, info publik, layanan publik, layanan, berita layanan publik, portal layanan publik, portal publik, portal publik layanan, portal berita indonesia, portal berita, indonesia, kominfo, informasi publik, komunikasi publik, kementerian, jokowi, menkominfo, internet sehat, menteri, presiden, presiden jokowi, jusuf kalla, kabinet kerja, maruf amin, " name="keywords">
+    <meta content="Portal Berita Info Publik dikelola oleh Sub Direktorat Media Online, Direktorat Pengelolaan Media Publik, Direktorat Jenderal Informasi dan Komunikasi Publik, Kementerian Komunikasi dan Informatika Republik Indonesia" name="description"> 
+    <!-- <link rel="manifest" href="site.webmanifest">
+    <!-- favicon.ico in the root directory -->
+    <!-- Site Title -->      
+    <title>InfoPublik - Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD di Taman Tjimanoek</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://infopublik.id/assets/img/icons/favicon.png">
+
+    <meta name="theme-color" content="#030303">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,300;1,500&family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://infopublik.id//assets/frontend/css/styles.css?537a1bbd0e5129401d28" rel="stylesheet"></head>
+
+<body>
+    <!-- Header news -->
+    <header class="bg-light">
+        <!-- Navbar  Top-->
+        <div class="topbar d-none d-sm-block">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                <div class="topbar-left">
+                    <div class="topbar-text">
+                        <span id="clock"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-7">
+                <div class="list-unstyled topbar-right">
+                    <ul class="topbar-link">
+                                                    <li><a href="https://infopublik.id/tentang-kami/1">Tentang Kami</a></li>
+                                            </ul>
+                    <ul class="topbar-sosmed">
+                        <li>
+                            <!-- <a href="#"> -->
+                                <select class="form" id="bahasa" onchange="selectLang(this)">
+                                    <option value="">- Pilih Bahasa -</option>
+                                    <option value="1"  >Bahasa</option>
+                                    <option value="2"  >English</option>
+                                </select>
+                            <!-- </a> -->
+                        </li>                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- End Navbar Top  -->
+        <!-- Navbar  -->
+<div class="bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <figure class="pt-4 pb-4 mb-0 my-auto d-none d-sm-block">
+                    <a href="https://infopublik.id/">
+                        <img src="https://infopublik.id//assets/frontend/images/placeholder/logo.jpg" alt="InfoPublik" class="img-fluid logo">
+                    </a>
+                </figure>
+            </div>
+
+        </div>
+    </div>
+</div>
+       
+        <!-- Navbar menu  -->
+<div class="navigation-wrap navigation-shadow bg-white">
+    <nav class="navbar navbar-hover navbar-expand-lg navbar-soft">
+        <div class="container">
+            <div class="offcanvas-header">
+                <div data-toggle="modal" data-target="#modal_aside_right" class="btn-md">
+                    <span class="navbar-toggler-icon"></span>
+                </div>
+            </div>
+            <figure class="mb-0 mx-auto d-block d-sm-none">
+                <a href="https://infopublik.id/">
+                    <img src="https://infopublik.id//assets/frontend/images/placeholder/logo.jpg" alt="InfoPublik" class="img-fluid logo-mobile">
+                </a>
+            </figure>        
+
+            <div class="collapse navbar-collapse justify-content-between" id="main_nav99">
+                <ul class="navbar-nav mr-auto ">
+                    <li class='nav-item'><a class='nav-link' href='https://infopublik.id/'  > Beranda</a></li><li class='nav-item dropdown' ><a href='#' class='nav-link active dropdown-toggle' data-toggle='dropdown'>Nasional</a><ul class='dropdown-menu dropdown-menu-left'><li><a class='dropdown-item' href='https://infopublik.id/kategori/nasional-politik-hukum' >Politik & Hukum</a></li><li><a class='dropdown-item' href='https://infopublik.id/kategori/nasional-ekonomi-bisnis' >Ekonomi & Bisnis</a></li><li><a class='dropdown-item' href='https://infopublik.id/kategori/nasional-sosial-budaya' >Sosial & Budaya</a></li><li><a class='dropdown-item' href='https://infopublik.id/kategori/bencana' >Bencana</a></li></ul></li><li class='nav-item dropdown has-megamenu'><a class='nav-link dropdown-toggle' href='https://infopublik.id/kategori/nusantara' > Nusantara </a><div class='dropdown-menu animate fade-down megamenu mx-auto' role='menu'>
+                                        <div class='container wrap__mobile-megamenu'>
+                                            <div class='col-megamenu'>                                    
+                                                <div class='popular__news-header-carousel'>
+                                                    <div class='top__news__slider'>
+                                                        <div class='item'>
+                                                            <div class='article__entry'>
+                                                                <div class='article__image'>
+                                                                    <a href='https://infopublik.id/kategori/nusantara/954350/transformasi-komunikasi-publik-lumajang-dari-informasi-ke-inspirasi'>
+                                                                        <img src='https://infopublik.id/assets/upload/headline/WhatsApp_Image_2026-01-08_at_11_50_09_thumb.jpeg' alt=' class='img-fluid'>
+                                                                    </a>
+                                                                </div>
+                                                                <div class='article__content'>
+
+                                                                    <h5>
+                                                                        <a href='https://infopublik.id/kategori/nusantara/954350/transformasi-komunikasi-publik-lumajang-dari-informasi-ke-inspirasi'>
+                                                                            Transformasi Komunikasi Publik Lumajang: Dari Informasi ke Inspirasi
+                                                                        </a>
+                                                                    </h5>
+                                                                    <ul class='list-inline'>                                                                        
+                                                                        <li class='list-inline-item'>
+                                                                            <span>
+                                                                                MC KAB LUMAJANG | Kamis, 8 Januari 2026 | 15:05 WIB
+                                                                            </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div><div class='item'>
+                                                            <div class='article__entry'>
+                                                                <div class='article__image'>
+                                                                    <a href='https://infopublik.id/kategori/nusantara/954298/panen-raya-nasional-pemkab-lumajang-tegaskan-komitmen-kemandirian-pangan'>
+                                                                        <img src='https://infopublik.id/assets/upload/headline/MEITU_20260107_103310429_thumb.jpg' alt=' class='img-fluid'>
+                                                                    </a>
+                                                                </div>
+                                                                <div class='article__content'>
+
+                                                                    <h5>
+                                                                        <a href='https://infopublik.id/kategori/nusantara/954298/panen-raya-nasional-pemkab-lumajang-tegaskan-komitmen-kemandirian-pangan'>
+                                                                            Panen Raya Nasional, Pemkab Lumajang Tegaskan Komitmen Kemandirian Pangan
+                                                                        </a>
+                                                                    </h5>
+                                                                    <ul class='list-inline'>                                                                        
+                                                                        <li class='list-inline-item'>
+                                                                            <span>
+                                                                                MC KAB LUMAJANG | Kamis, 8 Januari 2026 | 14:42 WIB
+                                                                            </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div><div class='item'>
+                                                            <div class='article__entry'>
+                                                                <div class='article__image'>
+                                                                    <a href='https://infopublik.id/kategori/nusantara/954299/inovasi-dan-kolaborasi-itmi-lumajang-perluas-dakwah-ramah-penyandang-disabilitas'>
+                                                                        <img src='https://infopublik.id/assets/upload/headline/WhatsApp_Image_2026-01-08_at_08_48_27_thumb.jpg' alt=' class='img-fluid'>
+                                                                    </a>
+                                                                </div>
+                                                                <div class='article__content'>
+
+                                                                    <h5>
+                                                                        <a href='https://infopublik.id/kategori/nusantara/954299/inovasi-dan-kolaborasi-itmi-lumajang-perluas-dakwah-ramah-penyandang-disabilitas'>
+                                                                            Inovasi dan Kolaborasi, ITMI Lumajang Perluas Dakwah Ramah Penyandang Disabilitas
+                                                                        </a>
+                                                                    </h5>
+                                                                    <ul class='list-inline'>                                                                        
+                                                                        <li class='list-inline-item'>
+                                                                            <span>
+                                                                                MC KAB LUMAJANG | Kamis, 8 Januari 2026 | 14:46 WIB
+                                                                            </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div><div class='item'>
+                                                            <div class='article__entry'>
+                                                                <div class='article__image'>
+                                                                    <a href='https://infopublik.id/kategori/nusantara/954345/akademi-paradigta-2026-wujud-pemberdayaan-perempuan-desa-kubu-raya'>
+                                                                        <img src='https://infopublik.id/assets/upload/headline/20260107_111215_thumb.jpg' alt=' class='img-fluid'>
+                                                                    </a>
+                                                                </div>
+                                                                <div class='article__content'>
+
+                                                                    <h5>
+                                                                        <a href='https://infopublik.id/kategori/nusantara/954345/akademi-paradigta-2026-wujud-pemberdayaan-perempuan-desa-kubu-raya'>
+                                                                            Akademi Paradigta 2026, Wujud Pemberdayaan Perempuan Desa Kubu Raya
+                                                                        </a>
+                                                                    </h5>
+                                                                    <ul class='list-inline'>                                                                        
+                                                                        <li class='list-inline-item'>
+                                                                            <span>
+                                                                                MC KAB KUBU RAYA | Kamis, 8 Januari 2026 | 15:03 WIB
+                                                                            </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div><div class='item'>
+                                                            <div class='article__entry'>
+                                                                <div class='article__image'>
+                                                                    <a href='https://infopublik.id/kategori/nusantara/954357/dari-3-49-ke-3-75-kabupaten-pinrang-perlihatkan-perbaikan-tata-kelola-pemerintahan-digital'>
+                                                                        <img src='https://infopublik.id/assets/upload/headline/FB_IMG_1767858199180_thumb.jpg' alt=' class='img-fluid'>
+                                                                    </a>
+                                                                </div>
+                                                                <div class='article__content'>
+
+                                                                    <h5>
+                                                                        <a href='https://infopublik.id/kategori/nusantara/954357/dari-3-49-ke-3-75-kabupaten-pinrang-perlihatkan-perbaikan-tata-kelola-pemerintahan-digital'>
+                                                                            Dari 3,49 ke 3,75: Kabupaten Pinrang Perlihatkan Perbaikan Tata Kelola Pemerintahan Digital
+                                                                        </a>
+                                                                    </h5>
+                                                                    <ul class='list-inline'>                                                                        
+                                                                        <li class='list-inline-item'>
+                                                                            <span>
+                                                                                MC KAB PINRANG | Kamis, 8 Januari 2026 | 15:10 WIB
+                                                                            </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></li><li class='nav-item'><a class='nav-link' href='https://infopublik.id/kategori/siaran-pers'  > Siaran Pers</a></li><li class='nav-item dropdown' ><a href='#' class='nav-link active dropdown-toggle' data-toggle='dropdown'>Galeri</a><ul class='dropdown-menu dropdown-menu-left'><li><a class='dropdown-item' href='https://infopublik.id/galeri/foto' >Foto</a></li><li><a class='dropdown-item' href='https://infopublik.id/galeri/video' >Video</a></li><li><a class='dropdown-item' href='https://infopublik.id/kategori/infografis' >Infografis</a></li></ul></li><li class='nav-item'><a class='nav-link' href='https://infopublik.id/kategori/cek-fakta'  > Cek Fakta</a></li><li class='nav-item'><a class='nav-link' href='https://infopublik.id/kategori/stop-judi-online'  > Stop Judol</a></li><li class='nav-item'><a class='nav-link' href='https://infopublik.id/kategori/pp-tunas'  > Info Tunas</a></li><li class='nav-item'><a class='nav-link' href='https://infopublik.id/kategori/prioritas-nasional'  > Prioritas Nasional</a></li>                </ul>
+
+
+                <!-- Search bar.// -->
+                <ul class="navbar-nav ">
+                    <li class="nav-item search hidden-xs hidden-sm "> <a class="nav-link" href="">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Search content bar.// -->
+                <div class="top-search navigation-shadow">
+                    <div class="container">
+                        <div class="input-group ">
+                            <form action="" id='formsearch'>
+                            <!-- <form action="search" method="GET" id='formsearch'> -->
+
+                                <div class="row no-gutters mt-3">
+                                    <div class="col">
+                                        <input class="form-control border-secondary border-right-0 rounded-0"
+                                            type="search" name="keyword" value="" placeholder="Pencarian " id="keyword">
+                                    </div>
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Search content bar.// -->
+            </div> <!-- navbar-collapse.// -->
+        </div>
+    </nav>
+</div>
+<!-- End Navbar menu  -->
+
+<!-- Navbar sidebar menu  -->
+<div id="modal_aside_right" class="modal fixed-left fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-aside" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="widget__form-search-bar  ">
+    <div class="row no-gutters">
+        <div class="col">
+            <input class="form-control border-secondary border-right-0 rounded-0" value="" placeholder="Search">
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+</div>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <nav class="list-group list-group-flush">
+                    <ul class="navbar-nav ">
+                    <li class='nav-item'><a class='nav-link text-dark' href='https://infopublik.id/' >Beranda</a></li><li class='nav-item dropdown'><a href='' class='nav-link active dropdown-toggle text-dark' data-toggle='dropdown'>Nasional</a><ul class='dropdown-menu dropdown-menu-left'><li><a class='dropdown-item text-dark' href='https://infopublik.id/kategori/nasional-politik-hukum' >Politik & Hukum</a></li><li><a class='dropdown-item text-dark' href='https://infopublik.id/kategori/nasional-ekonomi-bisnis' >Ekonomi & Bisnis</a></li><li><a class='dropdown-item text-dark' href='https://infopublik.id/kategori/nasional-sosial-budaya' >Sosial & Budaya</a></li><li><a class='dropdown-item text-dark' href='https://infopublik.id/kategori/bencana' >Bencana</a></li></ul></li><li class='nav-item'><a class='nav-link text-dark' href='https://infopublik.id/kategori/nusantara' >Nusantara</a></li><li class='nav-item'><a class='nav-link text-dark' href='https://infopublik.id/kategori/siaran-pers' >Siaran Pers</a></li><li class='nav-item dropdown'><a href='' class='nav-link active dropdown-toggle text-dark' data-toggle='dropdown'>Galeri</a><ul class='dropdown-menu dropdown-menu-left'><li><a class='dropdown-item text-dark' href='https://infopublik.id/galeri/foto' >Foto</a></li><li><a class='dropdown-item text-dark' href='https://infopublik.id/galeri/video' >Video</a></li><li><a class='dropdown-item text-dark' href='https://infopublik.id/kategori/infografis' >Infografis</a></li></ul></li><li class='nav-item'><a class='nav-link text-dark' href='https://infopublik.id/kategori/cek-fakta' >Cek Fakta</a></li><li class='nav-item'><a class='nav-link text-dark' href='https://infopublik.id/kategori/stop-judi-online' >Stop Judol</a></li><li class='nav-item'><a class='nav-link text-dark' href='https://infopublik.id/kategori/pp-tunas' >Info Tunas</a></li><li class='nav-item'><a class='nav-link text-dark' href='https://infopublik.id/kategori/prioritas-nasional' >Prioritas Nasional</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="modal-footer">
+                <p>© 2023 - Portal Berita InfoPublik.</p>
+            </div>
+        </div>
+    </div> <!-- modal-bialog .// -->
+</div> <!-- modal.// -->
+<!-- End Navbar sidebar menu  -->
+        <!-- End Navbar  -->
+    </header>
+    <!-- End Header news -->
+    
+<section class="bg-white pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Breadcrumb -->
+                <ul class="breadcrumbs bg-light mb-4">
+                    <li class="breadcrumbs__item">
+                        <a href="index.html" class="breadcrumbs__url">
+                            <i class="fa fa-home"></i> Beranda</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs__item--current">
+                        Nusantara                    </li>
+                    <li class="breadcrumbs__item breadcrumbs__item--current">
+                        Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD di Taman Tjimanoek                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+
+                                <!-- Social media animation -->
+                <div class="social__media__animation ">
+                                        
+                    <ul class="menu topLeft bg__card-shadow">
+                        <li class="share bottom">
+                            <i class="fa fa-share-alt"></i>
+                            <ul class="list__submenu">
+                                <li><a href="https://infopublik.id/kategori/nusantara/690961/serunya-sabtu-ceria-bersama-anak-anak-tk-paud-di-taman-tjimanoek" class="facebook sharebtn" id="fb"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://infopublik.id/kategori/nusantara/690961/serunya-sabtu-ceria-bersama-anak-anak-tk-paud-di-taman-tjimanoek" class="twitter tw sharebtn" id="tw"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://infopublik.id/kategori/nusantara/690961/serunya-sabtu-ceria-bersama-anak-anak-tk-paud-di-taman-tjimanoek" class="googlePlus wa sharebtn" id="wa"><i class="fa fa-whatsapp"></i></a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Article detail -->
+                <div class="wrap__article-detail">
+                    <div class="wrap__article-detail-image">
+                        <figure>
+                            <img src="https://infopublik.id/assets/upload/headline//IMG-20221203-WA0034.jpg" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="wrap__article-detail-title">
+                        <h1>
+                            Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD di Taman Tjimanoek                        </h1>
+                        <p style="color: #666;font-size: .8em;">
+                             <i class="fa fa-camera"></i> :                         </p>
+                    </div>
+                    <hr>                    
+                    <div class="wrap__article-detail-info">
+                                                <p style="font-size: .8em;">Oleh <a href='https://infopublik.id/mediacenter/531'>MC KAB INDRAMAYU</a>, <span class="text-dark text-capitalize ml-1">Sabtu, 3 Desember 2022 | 18:10 WIB</span> - Redaktur: <a href='#'>Tobari</a> - <i class='fa fa-eye'></i> 569</p>                        
+                    </div>
+                    <hr>
+
+                    <div class="wrap__article-detail-content">
+                        <p style="text-align: justify;"><strong>Indramayu, InfoPublik </strong>-- Masa Taman Kanak-kanak (TK) maupun Pendidikan Anak Usia Dini (PAUD) menjadi salah satu masa pendidikan yang mengasyikan.</p>
+<p style="text-align: justify;">Sehingga kegiatan Sabtu Ceria yang berlangsung di Taman Tjimanoek menjadi ruang guna meningkatkan kegembiraan serta keceriaan sekaligus mengasah perkembangan anak.</p>
+<p style="text-align: justify;">Kegiatan Sabtu Ceria di bantaran kali Tjimanoek kali ini mengundang anak-anak murid dari beberapa sekolah TK di Kabupaten Indramayu pada Sabtu (3/12/2022).</p>
+<p style="text-align: justify;">Peserta Sabtu Ceria yang digagas sejumlah perangkat daerah Kabupaten Indramayu bukan hanya dihadiri peserta dari TK atau PAUD melainkan juga dari SD hingga SMP dan SMA.</p>
+<p style="text-align: justify;">Melihat kemeriahan dari para peserta. di sela-sela kesibukannya Bupati Indramayu Nina Agustina menyempatkan untuk melihat dan menyapa langsung para murid dan guru yang menampilkan berbagai kreasi seni budaya Indramayu.</p>
+<p style="text-align: justify;">Bupati Nina Agustina sangat mengapresiasi kegiatan rutin tersebut dengan menyampaikan rasa bangga dan bahagia melihat anak-anak generasi penerus bangsa yang terlihat ceria dan sehat.</p>
+<p style="text-align: justify;">Melalui Video Call oleh Ketua Pelaksana Ririn Oce Iskandar, Bupati Nina juga berpesan kepada semua anak-anak yang hadir untuk selalu semangat belajar dan menuntut ilmu untuk masa depan.<br /><br />Selain Kehadiran Bupati Indramayu, Ikatan Guru Taman Kanak-Kanak Indonesia (IGTKI) Kabupaten Indramayu yang masih dibawah naungan Persatuan Guru Republik Indonesia (PGRI) hadir dan ikut memeriahkan sabtu ceria tersebut.</p>
+<p style="text-align: justify;">Kemudian hadir pula Kepala Bidang PAUD Dinas Pendidikan dan Kebudayaan (Disdikbud) Kabupaten Indramayu serta pengawas TK, pengawas IGTKI Kabupaten dan pengawas IGTKI dari beberapa kecamatan di Kabupaten Indramayu.</p>
+<p style="text-align: justify;">Dalam kegiatan sabtu cerita tersebut, anak-anak TK mengikuti berbagai kegiatan yang dapat mengasah kemampuan motorik anak dan meningkatkan kemampuan dalam bersosialisasi.</p>
+<p style="text-align: justify;">Adapun kreasi yang ditampilkan para anak-anak TK kali ini ialah Drum Band oleh TK Cendekia, Tari oleh TK pembina Indramayu, doa-doa oleh TK PUI Islam Mutiara, pencak silat kolaborasi oleh TK Istiqomah, Sintren oleh guru TK kecamatan Indramayu, Tari Topeng oleh Mahesa Gabus, Tari-tarian oleh TK Balongan, Tari balet oleh TK Aisiyah dan Tari kreasi oleh TK Bina Insani.</p>
+<p style="text-align: justify;">Selain itu, Sabtu ceria dengan tema “Outdoor Learning At Tjimanoek, Sehat Cerdas Ceria” tersebut mengadakan kegiatan mewarnai bersama King Jerry beserta anak-anak TK di pojok baca taman Tjimanoek serta banyak juga yang mengikuti kegiatan kerajinan tangan seperti menghias tempat pensil dari kaleng bekas, membuat bunga dari cotton bud, membuat kolase dari biji-bijian dan lainnya.</p>
+<p style="text-align: justify;">Kemudian bersamaan dengan kegiatan menggambar di pojok baca taman cimanuk, pustakawan dari Dinas Perpustakaan dan Arsip (DPA) Artika Kurnia dan Nanda Sasmita juga mengadakan kegiatan bincang-bincang dengan beberapa murid TK.</p>
+<p style="text-align: justify;">Sementara itu Ketua pelaksana Ririen Oce Iskandar mengatakan rasa terima kasihnya kepada semua pihak yang terlibat atas terselenggaranya acara tersebut sehingga dapat mengembangkan kemampuan dan kreatifitas anak-anak penerus bangsa.</p>
+<p style="text-align: justify;">“Saya ucapkan banyak terima kasih kepada pihak-pihak yang terlibat dan yang hadir mendukung kegiatan ini berlangsung, saya berharap kegiatan-kegiatan seperti ini dapat terus berlanjut untuk mendukung generasi penerus bangsa dalam mengembangkan kemampuan dan kreatifitasnya,” katanya.</p>
+<p style="text-align: justify;">Kemudian, melalui Ikatan Guru Taman Kanak-Kanak Indonesia Kabupaten Indramayu mengucapkan terima kasih kepada Bupati Nina atas realisasi kegiatan rutin sabtu ceria ini dan berharap kegiatan tersebut terus berkembang dan berjalan dengan baik.</p>
+<p style="text-align: justify;">“Terima kasih kepada Bupati Indramayu Nina Agustina yang sudah merealisasikan kegiatan sabtu ceria dan semoga kegiatan ini terus berkembang serta berjalan dengan baik dalam mewujudkan Indramayu Bermartabat (Bersih, Religius, Maju, Adil, Makmur dan Hebat)”, ucapnya.</p>
+<p style="text-align: justify;">Selain itu juga Kepala sekolah TK Al-Barda Iro Tuniro mengatakan kegiatan ini sangat positif untuk anak-anak dan berharap agar kegiatan sabtu ceria ini berkesinambungan.</p>
+<p style="text-align: justify;">Alhamdulillah, menurut saya kegiatan ini sangat positif teruntuk anak-anak cukup bahagia dan senang dan harapan saya kedepannya agar lebih berkesinambungan yang diadakan acara seperti ini.</p>
+<p style="text-align: justify;">"Agar anak-anak tidak hanya belajar di dalam kelas, disini juga anak-anak dapat bersosialisasi dan bertemu teman teman yang sebayanya,” ujarnya. (Isnaini/MTQ--Tim Publikasi Diskominfo Indramayu/toeb)</p>
+                        <div class="alert alert-success" role="alert">
+                            <i> <i class="fa fa-info-circle"></i> &nbsp; Anda dapat menyiarkan ulang, menulis ulang, dan atau menyalin konten ini dengan mencantumkan sumber <strong>infopublik.id</strong></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Tags -->
+                                
+                <div class="row">
+                   &nbsp;<br><br>   
+                </div>
+                <div class="clearfix"></div>
+                            </div>
+                <div class="col-md-4">
+                    <aside class="wrapper__list__article">
+                        <div class="wrapper__list__article-small">
+                            <!-- Post Article -->
+                                                                                    <div class="article__entry">
+                                    <div class="article__image">
+                                        <a href="https://infopublik.id/kategori/nusantara/954422/pemkab-bangkalan-perkuat-tata-kelola-birokrasi-melalui-pelantikan-asisten-administrasi-umum">
+                                            <img src="https://infopublik.id/assets/upload/headline/MC_2212_thumb.jpg" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="article__content">
+                                        <div class="article__category">
+                                            Nusantara                                        </div>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <span class="text-primary">
+                                                    Oleh MC KAB BANGKALAN                                                </span>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <span class="text-dark text-capitalize">
+                                                    Kamis, 8 Januari 2026 | 23:59 WIB                                                </span>
+                                            </li>
+
+                                        </ul>
+                                        <h5>
+                                            <a href="https://infopublik.id/kategori/nusantara/954422/pemkab-bangkalan-perkuat-tata-kelola-birokrasi-melalui-pelantikan-asisten-administrasi-umum">
+                                                Pemkab Bangkalan Perkuat Tata Kelola Birokrasi melalui Pelantikan Asisten Administrasi Umum                                            </a>
+                                        </h5>
+                                        <p>
+                                            Pemerintah Kabupaten Bangkalan terus memperkuat tata kelola pemerintahan melalui penataan birokrasi yang profesional dan berintegritas. Upaya tersebut ditandai dengan pelantikan dan pengambilan sumpah jabatan terhadap R. Amina Rahmawati sebagai Asisten Administrasi Umum di lingkungan Pemerintah Kabupaten Bangkalan                                        </p>
+                                        <a href="https://infopublik.id/kategori/nusantara/954422/pemkab-bangkalan-perkuat-tata-kelola-birokrasi-melalui-pelantikan-asisten-administrasi-umum" class="btn btn-outline-primary mb-4 text-capitalize"> read more</a>
+                                    </div>
+                                </div>
+                                                                                                                <div class="mb-3">
+                                    <!-- Post Article -->
+                                                                    <div class="card__post card__post-list">
+                                        <div class="image-sm">
+                                            <a href="https://infopublik.id/kategori/nusantara/954414/lbh-gp-ansor-sumenep-polres-perkuat-akses-bantuan-hukum-gratis-bagi-warga">
+                                                <img src="https://infopublik.id/assets/upload/headline/IMG-20260108-WA0025_copy_1008x756_thumb.jpg" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="card__post__body ">
+                                            <div class="card__post__content">
+
+                                                <div class="card__post__author-info mb-2">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">
+                                                            <span class="text-primary">
+                                                                Oleh MC KAB SUMENEP                                                            </span>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="text-dark text-capitalize">
+                                                                Kamis, 8 Januari 2026 | 21:11 WIB                                                            </span>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="card__post__title">
+                                                    <h6>
+                                                        <a href="https://infopublik.id/kategori/nusantara/954414/lbh-gp-ansor-sumenep-polres-perkuat-akses-bantuan-hukum-gratis-bagi-warga">
+                                                            LBH GP Ansor Sumenep-Polres Perkuat Akses Bantuan Hukum Gratis bagi Warga                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                </div>
+                                                                                                                <div class="mb-3">
+                                    <!-- Post Article -->
+                                                                    <div class="card__post card__post-list">
+                                        <div class="image-sm">
+                                            <a href="https://infopublik.id/kategori/nusantara/954413/wamen-pu-dorong-optimalisasi-ipal-sijenjang-sambungan-rumah-jadi-kunci">
+                                                <img src="https://infopublik.id/assets/upload/headline/WhatsApp_Image_2026-01-08_at_15_04_26_thumb.jpeg" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="card__post__body ">
+                                            <div class="card__post__content">
+
+                                                <div class="card__post__author-info mb-2">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">
+                                                            <span class="text-primary">
+                                                                Oleh MC KOTA JAMBI                                                            </span>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="text-dark text-capitalize">
+                                                                Kamis, 8 Januari 2026 | 21:07 WIB                                                            </span>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="card__post__title">
+                                                    <h6>
+                                                        <a href="https://infopublik.id/kategori/nusantara/954413/wamen-pu-dorong-optimalisasi-ipal-sijenjang-sambungan-rumah-jadi-kunci">
+                                                            Wamen PU Dorong Optimalisasi IPAL Sijenjang, Sambungan Rumah Jadi Kunci                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                </div>
+                                                                                                                <div class="mb-3">
+                                    <!-- Post Article -->
+                                                                    <div class="card__post card__post-list">
+                                        <div class="image-sm">
+                                            <a href="https://infopublik.id/kategori/nusantara/954405/kemensos-turun-tangan-warga-banjarbaru-terdampak-banjir-terbantu">
+                                                <img src="https://infopublik.id/assets/upload/headline/DJI_20260108102436_0034_Dbjbtv_thumb.jpg" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="card__post__body ">
+                                            <div class="card__post__content">
+
+                                                <div class="card__post__author-info mb-2">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">
+                                                            <span class="text-primary">
+                                                                Oleh MC KOTA BANJARBARU                                                            </span>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="text-dark text-capitalize">
+                                                                Kamis, 8 Januari 2026 | 19:28 WIB                                                            </span>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="card__post__title">
+                                                    <h6>
+                                                        <a href="https://infopublik.id/kategori/nusantara/954405/kemensos-turun-tangan-warga-banjarbaru-terdampak-banjir-terbantu">
+                                                            Kemensos Turun Tangan, Warga Banjarbaru Terdampak Banjir Terbantu                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                </div>
+                                                                                                                <div class="mb-3">
+                                    <!-- Post Article -->
+                                                                    <div class="card__post card__post-list">
+                                        <div class="image-sm">
+                                            <a href="https://infopublik.id/kategori/nusantara/954392/bmkg-imbau-kewaspadaan-hujan-lebat-berpotensi-landa-aceh">
+                                                <img src="https://infopublik.id/assets/upload/headline/screenshot-1767884379287_thumb.png" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="card__post__body ">
+                                            <div class="card__post__content">
+
+                                                <div class="card__post__author-info mb-2">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">
+                                                            <span class="text-primary">
+                                                                Oleh MC KAB BENER MERIAH                                                            </span>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="text-dark text-capitalize">
+                                                                Kamis, 8 Januari 2026 | 22:00 WIB                                                            </span>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="card__post__title">
+                                                    <h6>
+                                                        <a href="https://infopublik.id/kategori/nusantara/954392/bmkg-imbau-kewaspadaan-hujan-lebat-berpotensi-landa-aceh">
+                                                            BMKG Imbau Kewaspadaan, Hujan Lebat Berpotensi Landa Aceh                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                </div>
+                                                                            </div>
+                    </aside>
+
+                    <div class="sidebar-section">
+                        <aside class="wrapper__list__article">
+                            <h4 class="border_section">Terpopuler Nusantara</h4>
+                            <!-- List Article -->
+                                                    <div class="card__post__content p-3 card__post__body-border-all">
+                                <div class="card__post__category text-capitalize">
+                                    Nusantara                                </div>
+                                <div class="card__post__author-info mb-2">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                Oleh MC KAB LUMAJANG                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-dark text-capitalize">
+                                                Kamis, 8 Januari 2026 | 15:05 WIB                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card__post__title">
+                                    <h5>
+                                        <a href="https://infopublik.id/kategori/nusantara/954350/transformasi-komunikasi-publik-lumajang-dari-informasi-ke-inspirasi">
+                                            Transformasi Komunikasi Publik Lumajang: Dari Informasi ke Inspirasi                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+                                                    <div class="card__post__content p-3 card__post__body-border-all">
+                                <div class="card__post__category text-capitalize">
+                                    Nusantara                                </div>
+                                <div class="card__post__author-info mb-2">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                Oleh MC KAB DONGGALA                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-dark text-capitalize">
+                                                Rabu, 7 Januari 2026 | 23:40 WIB                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card__post__title">
+                                    <h5>
+                                        <a href="https://infopublik.id/kategori/nusantara/954252/pemkab-donggala-musnahkan-13-869-ktp-el-rusak-dan-tidak-terpakai">
+                                            Pemkab Donggala Musnahkan 13.869 KTP-el Rusak dan Tidak Terpakai                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+                                                    <div class="card__post__content p-3 card__post__body-border-all">
+                                <div class="card__post__category text-capitalize">
+                                    Nusantara                                </div>
+                                <div class="card__post__author-info mb-2">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                Oleh MC KAB MERAUKE                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-dark text-capitalize">
+                                                Rabu, 7 Januari 2026 | 08:31 WIB                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card__post__title">
+                                    <h5>
+                                        <a href="https://infopublik.id/kategori/nusantara/954166/bulog-merauke-konsisten-serap-jagung-pipil-sejak-2025">
+                                            Bulog Merauke Konsisten Serap Jagung Pipil sejak 2025                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+                                                    <div class="card__post__content p-3 card__post__body-border-all">
+                                <div class="card__post__category text-capitalize">
+                                    Nusantara                                </div>
+                                <div class="card__post__author-info mb-2">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                Oleh MC KAB BATANG                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-dark text-capitalize">
+                                                Rabu, 7 Januari 2026 | 14:23 WIB                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card__post__title">
+                                    <h5>
+                                        <a href="https://infopublik.id/kategori/nusantara/954185/tanamkan-kedisiplinan-ratusan-pelajar-smk-bhapra-batang-jalani-retreat">
+                                            Tanamkan Kedisiplinan, Ratusan Pelajar SMK Bhapra Batang Jalani Retreat                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+                                                    <div class="card__post__content p-3 card__post__body-border-all">
+                                <div class="card__post__category text-capitalize">
+                                    Nusantara                                </div>
+                                <div class="card__post__author-info mb-2">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <span class="text-primary">
+                                                Oleh MC KOTA BATAM                                            </span>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <span class="text-dark text-capitalize">
+                                                Rabu, 7 Januari 2026 | 17:55 WIB                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card__post__title">
+                                    <h5>
+                                        <a href="https://infopublik.id/kategori/nusantara/954210/dwp-kota-batam-teguhkan-peran-keluarga-menuju-2026-tangguh">
+                                            DWP Kota Batam Teguhkan Peran Keluarga Menuju 2026 Tangguh                                        </a>
+                                    </h5>
+                                </div>
+                            </div>
+                        
+                        </aside>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="wrapper__section p-0">
+        <div class="wrapper__section__components">
+            <!-- Footer -->
+            <footer>
+    <div class="wrapper__footer bg__footer-dark pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <figure class="image-logo">
+                        <img src="https://infopublik.id//assets/frontend/images/placeholder/logo-white.png" alt="" class="logo-footer">
+                    </figure>
+                    <ul class="list-unstyled option-content is-hidden">                        
+                        <li><a href="#"><i class="fa fa-map-marker"></i>&nbsp;<span>Jl. Medan Merdeka Barat no. 9, Jakarta 10110</span></a></li>                        
+                        <li><a href=""><i class="fa fa-envelope-o"></i>&nbsp;<span>infopublik@kominfo.go.id</span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="widget__footer">
+                        <div class="dropdown-footer ">
+                            <h4 class="footer-title">
+                                Seputar InfoPublik                                <span class="fa fa-angle-down"></span>
+                            </h4>
+
+                        </div>
+
+                        <ul class="list-unstyled option-content is-hidden">
+                            <li>
+                                <a href="https://infopublik.id/tentang-kami/1">Tentang Kami</a>
+
+                            </li>                            
+                            <li>
+                                <a href="https://infopublik.id/sitemap.xml">Sitemap</a>
+                            </li>                            
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="widget__footer">
+                        <div class="dropdown-footer">
+                            <h4 class="footer-title">
+                                Berita Terkini                                <span class="fa fa-angle-down"></span>
+                            </h4>
+
+                        </div>
+
+                        <ul class="list-unstyled option-content is-hidden">
+                            <li>
+                                <a href="https://infopublik.id/kategori/nusantara">Nusantara</a>
+                            </li>
+                            <li>
+                                <a href="https://infopublik.id/kategori/sorot">Sorot</a>
+                            </li>
+                            <li>
+                                <a href="https://infopublik.id/kategori/siaran-pers">Siaran Pers</a>
+                            </li>
+                            <li>
+                                <a href="https://infopublik.id/kategori/cek-fakta">Cek Fakta</a>
+                            </li>                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 my-auto"></div>
+                    
+                    <div class="col-md-8 my-auto ">
+
+                        <div class="social__media">
+
+                            <ul class="list-inline">
+
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-social rounded text-white ">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-social rounded text-white">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="btn btn-social rounded text-white ">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer bottom -->
+    <div class="wrapper__footer-bottom bg__footer-dark">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="border-top-1 bg__footer-bottom-section">                        
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>
+                                    Copyright © 2023 Portal Berita InfoPublik
+                                </span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+        </div>
+    </section>
+
+
+    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+<!-- seasonal info -->
+<!--
+   <style type="text/css">
+    .float-info{
+      position: fixed;
+      z-index: 10000;
+      align-items: center;
+      text-align: center;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      min-width: 350px;
+      max-width: 400px;
+    }
+  </style>
+  <div class="float-info" id='sekilasinfo'>
+    <a href="" class="closebtn" id="closeinfo"><i class="fa fa-window-close close" aria-hidden="true"></i></a>
+    <a href="http://s.id/SVINFOPUBLIK25" target="_blank"><img class="img-responsive" src="https://infopublik.id/resources/popup/banner-IP.png"></a>    
+  </div>
+  <!-- seasonal info end -->
+<script type="text/javascript" src="https://infopublik.id//assets/frontend/js/index.bundle.js?537a1bbd0e5129401d28"></script></body>
+
+<script type="text/javascript">
+
+    var read_session = '{"ip":"f08a844301fa03ff2fb8e0ab9100f18f","post":{"690961":"690961"}}';
+    console.log(read_session);
+
+    $(document).ready(function(){
+
+        $('#closeinfo').click(function(){
+          $('#sekilasinfo').hide();
+          return false;
+        })
+
+
+        
+        $("#formsearch").submit(function(){           
+           var keyword = encodeURIComponent($('#keyword').val());           
+           window.open('https://www.google.com/search?q=site%3Ainfopublik.id+'+keyword, '_blank'); 
+           return false;
+        });
+
+        $(".sharebtn").click(function(){
+            var med = $(this).attr("id");
+            var url = $(this).attr("href");
+
+            if(med == 'fb'){
+              window.open('http://www.facebook.com/sharer.php?u='+url,'sharer','toolbar=0,status=0,width=648,height=395')   
+            }else if(med == 'tw'){    
+              window.open('http://twitter.com/share?text=Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD di Taman Tjimanoek&url='+url,'sharer','toolbar=0,status=0,width=648,height=395')        
+            }else if(med == 'wa'){
+              window.open('https://api.whatsapp.com/send?text=Serunya Sabtu Ceria Bersama Anak-anak TK/PAUD di Taman Tjimanoek | '+url,'sharer','toolbar=0,status=0,width=648,height=395')        
+            }else{       
+                var tempInput = document.createElement("input");
+                tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+                tempInput.value = url;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand("copy");
+                document.body.removeChild(tempInput);
+                alert('Copied!')
+            } 
+            return false;
+          })
+    
+    })
+
+    window.onload = displayTime;
+    function displayTime() {
+        var today = new Date();
+        var tahun = today.getFullYear();
+        var bulan = today.getMonth();
+        var tanggal = today.getDate();
+        var hari = today.getDay();
+        var jam = today.getHours();
+        var menit = today.getMinutes();
+        var detik = today.getSeconds();
+
+        switch(hari) {
+         case 0: hari = "Minggu"; break;
+         case 1: hari = "Senin"; break;
+         case 2: hari = "Selasa"; break;
+         case 3: hari = "Rabu"; break;
+         case 4: hari = "Kamis"; break;
+         case 5: hari = "Jum'at"; break;
+         case 6: hari = "Sabtu"; break;
+        }
+
+        switch(bulan) {
+         case 0: bulan = "Januari"; break;
+         case 1: bulan = "Februari"; break;
+         case 2: bulan = "Maret"; break;
+         case 3: bulan = "April"; break;
+         case 4: bulan = "Mei"; break;
+         case 5: bulan = "Juni"; break;
+         case 6: bulan = "Juli"; break;
+         case 7: bulan = "Agustus"; break;
+         case 8: bulan = "September"; break;
+         case 9: bulan = "Oktober"; break;
+         case 10: bulan = "November"; break;
+         case 11: bulan = "Desember"; break;
+        }
+
+        var tampilTanggal = hari + ", " + tanggal + " " + bulan + " " + tahun;
+        var tampilWaktu = jam + ":" + menit + ":" + detik;
+
+
+        var element = document.getElementById("clock");
+        var now = new Date();
+        element.innerHTML = tampilTanggal + ' ' + tampilWaktu
+        setTimeout(displayTime, 1000);
+    }
+
+    function selectLang(x)
+    {
+        var lang = x.options[x.selectedIndex].value;
+        var pn = "kategori/nusantara/690961/serunya-sabtu-ceria-bersama-anak-anak-tk-paud-di-taman-tjimanoek"
+        
+        window.location.href = "https://infopublik.id/index/language/" + lang;
+        // window.location.href = "https://indonesia.go.id/index/switch_lang/" + lang;
+    }
+
+//$('#myModal').modal('show');
+    // reload every 20 minutes
+    /*setTimeout(function() {
+      location.reload();
+    }, 1200000);*/
+    
