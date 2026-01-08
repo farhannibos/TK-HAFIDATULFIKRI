@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TK HafidatulFikri - Modern & Islamic Education</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        
+        .hero-shape {
+            position: absolute;
+            top: -10%;
+            right: -5%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(14, 165, 233, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%);
+            border-radius: 50%;
+            z-index: -1;
+            filter: blur(60px);
+        }
+        
+        .btn-grad {
+            background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-grad:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4);
+        }
+        
+        .card-pro {
+            transition: all 0.4s ease;
+            border: 1px solid rgba(229, 231, 235, 0.5);
+        }
+        
+        .card-pro:hover {
+            transform: translateY(-8px);
+            background: white;
+            border-color: #0ea5e9;
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-[#fafafa] text-slate-800">
+
+    <header class="sticky top-0 z-[100] glass-nav border-b border-gray-100/50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <div class="w-11 h-11 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-200">
+                        <i class="fas fa-graduation-cap text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold tracking-tight text-slate-900 leading-none">HafidatulFikri</h1>
+                        <span class="text-[11px] font-semibold text-blue-600 uppercase tracking-widest">Islamic Preschool</span>
+                    </div>
+                </div>
+
+                <div class="hidden lg:flex items-center space-x-8">
+                    <div class="flex items-center space-x-6 text-sm font-medium text-slate-600">
+                        <a href="index.html" class="text-blue-600">Beranda</a>
+                        <a href="profil.html" class="hover:text-blue-600 transition">Profil</a>
+                        <a href="program.html" class="hover:text-blue-600 transition">Program</a>
+                        <a href="galeri.html" class="hover:text-blue-600 transition">Galeri</a>
+                    </div>
+                    <a href="https://wa.me/6281234567890" class="btn-grad px-6 py-2.5 text-white text-sm font-bold rounded-full">
+                        Daftar Sekarang
+                    </a>
+                </div>
+
+                <button id="mobile-menu-button" class="lg:hidden text-slate-800">
+                    <i class="fas fa-bars-staggered text-2xl"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="relative pt-10 pb-20 lg:pt-24 lg:pb-32 overflow-hidden">
+        <div class="hero-shape"></div>
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold uppercase tracking-wider mb-6">
+                        <span class="relative flex h-2 w-2 mr-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+                        </span>
+                        Penerimaan Siswa Baru 2024/2025
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold text-slate-900 mb-8 leading-[1.1]">
+                        Membentuk <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">Karakter Islami</span> Sejak Dini
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-10 leading-relaxed max-w-xl">
+                        Kami percaya setiap anak adalah permata. Dengan kurikulum berbasis kasih sayang dan nilai Al-Qur'an, kami bantu si kecil tumbuh menjadi generasi cerdas dan berakhlak mulia.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="program.html" class="btn-grad px-10 py-4 text-white font-bold rounded-2xl flex items-center">
+                            Mulai Belajar <i class="fas fa-arrow-right ml-3"></i>
+                        </a>
+                        <div class="flex -space-x-3 items-center ml-4">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?u=1" alt="">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?u=2" alt="">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?u=3" alt="">
+                            <span class="pl-5 text-sm font-medium text-slate-500">Diminati 200+ Orang Tua</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 relative" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl border-[12px] border-white">
+                        <img src="../assets/gambar-utama.jpg" alt="Anak TK" class="w-full h-[500px] object-cover" onerror="this.src='https://images.unsplash.com/photo-1587654062363-20c7caaf7013?q=80&w=2070&auto=format&fit=crop'">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl z-20 hidden md:block" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600">
+                                <i class="fas fa-check-circle text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm font-bold text-slate-900">Terakreditasi A</p>
+                                <p class="text-xs text-slate-500">Kualitas Pendidikan Terbaik</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Metode Kami</h2>
+                <h3 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6">Program Unggulan Spesialis Anak</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="card-pro p-8 rounded-[2rem] bg-slate-50" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-8">
+                        <i class="fas fa-book-open text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Literasi Dini</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Metode membaca yang menyenangkan tanpa tekanan, membangun rasa ingin tahu anak.</p>
+                </div>
+                <div class="card-pro p-8 rounded-[2rem] bg-slate-50" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mb-8">
+                        <i class="fas fa-heart text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Adab & Akhlak</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Menanamkan nilai kejujuran, rasa hormat, dan kasih sayang sejak langkah pertama.</p>
+                </div>
+                <div class="card-pro p-8 rounded-[2rem] bg-slate-50" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-14 h-14 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mb-8">
+                        <i class="fas fa-mosque text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Hafalan Cilik</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Pengenalan surat pendek dan doa harian dengan metode murottal yang menenangkan.</p>
+                </div>
+                <div class="card-pro p-8 rounded-[2rem] bg-slate-50" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center mb-8">
+                        <i class="fas fa-palette text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Art & Creative</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Eksplorasi bakat melalui seni lukis, musik, dan kerajinan tangan yang inovatif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-[3rem] shadow-xl shadow-slate-200/50 p-8 md:p-16 relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-10 opacity-5">
+                    <i class="fas fa-quote-right text-[200px]"></i>
+                </div>
+
+                <div class="flex flex-col lg:flex-row items-center gap-16 relative z-10">
+                    <div class="lg:w-2/5">
+                        <div class="relative">
+                            <img src="../assets/kepala-sekolah.jpg" class="w-full h-[450px] object-cover rounded-[2.5rem] shadow-2xl" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop'">
+                            <div class="absolute -bottom-6 right-6 bg-blue-600 text-white p-6 rounded-2xl shadow-xl">
+                                <p class="text-2xl font-bold leading-none">12+</p>
+                                <p class="text-[10px] uppercase tracking-widest font-bold opacity-80">Tahun Mengabdi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-3/5">
+                        <h3 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-8 leading-tight italic">
+                            "Pendidikan adalah ibadah, dan melihat senyum anak-anak adalah anugerah terbesar bagi kami."
+                        </h3>
+                        <p class="text-slate-600 text-lg mb-10 leading-relaxed">
+                            Assalamu'alaikum Ayah & Bunda. Di TK HafidatulFikri, kami bukan sekadar mengajar, tapi merawat tunas bangsa. Kami berkomitmen menciptakan lingkungan yang sehangat rumah, agar potensi spiritual dan intelektual anak berkembang tanpa rasa takut.
+                        </p>
+                        <div>
+                            <h4 class="text-xl font-extrabold text-slate-900 leading-none">Moch Farhan Fauzi</h4>
+                            <p class="text-blue-600 text-sm font-semibold mt-2 uppercase tracking-widest">Kepala Sekolah TK HafidatulFikri</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-300 pt-20 pb-10">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+                <div class="col-span-1 lg:col-span-1">
+                    <div class="flex items-center space-x-3 mb-8 text-white">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <span class="text-2xl font-bold">HafidatulFikri</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-6">
+                        Menjadi mitra terbaik orang tua dalam mencetak generasi robbani yang unggul di era digital.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-white font-bold mb-8">Navigasi</h5>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="index.html" class="hover:text-blue-400 transition">Beranda</a></li>
+                        <li><a href="program.html" class="hover:text-blue-400 transition">Program Pendidikan</a></li>
+                        <li><a href="profil.html" class="hover:text-blue-400 transition">Profil Sekolah</a></li>
+                        <li><a href="https://wa.me/6281234567890" class="hover:text-blue-400 transition">Pendaftaran</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-white font-bold mb-8">Kontak Kami</h5>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-blue-500 mt-1"></i>
+                            <span>Jl. Purwojoyo, Tulungrejo, Kec. Glenmore, Kabupaten Banyuwangi, Jawa Timur 68466</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-envelope text-blue-500"></i>
+                            <span>hello@hafidatulfikri.sch.id</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fab fa-whatsapp text-blue-500"></i>
+                            <span>+62 812 3456 7890</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-white font-bold mb-8">Newsletter</h5>
+                    <p class="text-xs mb-4">Dapatkan tips parenting & info pendaftaran.</p>
+                    <div class="flex">
+                        <input type="email" placeholder="Email Anda" class="bg-slate-800 border-none rounded-l-lg px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 w-full outline-none">
+                        <button class="bg-blue-600 text-white px-4 py-3 rounded-r-lg hover:bg-blue-700 transition">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-10 text-center">
+                <p class="text-xs font-medium">&copy; 2026 TK HafidatulFikri. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 100
+        });
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-button');
+        // Tambahkan logic toggle menu Anda di sini
+    </script>
+</body>
+
+</html>
